@@ -45,6 +45,11 @@
         }
     },
 	"storefrontAddons":[ 
+	{ 
+		  "addon":"gigyaloginaddon",
+		  "storefront":"yacceleratorstorefront",
+		  "template":"yacceleratorstorefront"
+	   },
 	   { 
 		  "addon":"commerceorgsamplesaddon",
 		  "storefront":"yacceleratorstorefront",
@@ -428,10 +433,7 @@
 	   }
 	],
 	"tests": {
-        "extensions": [
-            "kiwi",
-            "tiger"
-        ],
+       
         "annotations": [
             "UnitTests",
             "IntegrationTests"
